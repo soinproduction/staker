@@ -1,0 +1,79 @@
+
+:root {
+  // --------------- default global variables ---------------
+  --frame-width: 1920;
+  --rem-function: 16px;
+
+  //--rem-function: calc(100vw / var(--frame-width));
+
+  --error-bg: #d01f1f;
+  --body-bg: #EEEDEE;
+  --body-font-size: 16px;
+  --content-width: 1200px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // --------------- default JS variables ---------------
+
+  //--header-height: 88px;
+
+
+  // --------------- default scroll variables ---------------
+  --scrollbar-thumb: #1397D6;
+
+  // --scrollbar-thumb-hover: #00aff0;
+  --scrollbar-track: rgba(0, 0, 0, 0.07);
+  --scrollbar-track-hover: transparent;
+  --overlay-bg: rgba(0, 0, 0, 0.5);
+
+  // --------------- default select variables ---------------
+  --select-inner-bg: #404040;
+  --select-inner-border: #FDFDFD;
+  --select-focus-border: #FDFDFD;
+  --main-button-size: 50px;
+
+  // --------------- default font-family variables ---------------
+
+  --font-family: "Hind", sans-serif;   // var(--font-family);
+  --font-family2: "Inter", sans-serif; // var(--font-family2);
+
+  // --------------- default text color variables ---------------
+  --cl-a: #fff;    // var(--cl-a);
+  --cl-b: #3E414B; // var(--cl-b);
+  --cl-c: #A2FF00; // var(--cl-c);
+  --cl-d: #41C27F; // var(--cl-d);
+  --cl-e: #797C83; // var(--cl-e);
+  --cl-f: #4B4BF0; // var(--cl-f);
+  --cl-g: #000; // var(--cl-g);
+  --cl-h: #41C27F; // var(--cl-h);
+
+
+
+
+  // --------------- default background color variables ---------------
+  --bg-a: #fff; // var(--bg-a);
+  --bg-b: #3E414B; // var(--bg-b);
+  --bg-c: #A2FF00; // var(--bg-c);
+  --bg-d: #41C27F; // var(--bg-d);
+  --bg-e: #797C83; // var(--bg-e);
+  --bg-f: #4B4BF0; // var(--bg-f);
+  --bg-g: #000; // var(--bg-g);
+  --bg-h: #41C27F; // var(--bg-h);
+  --border-default: rgba(16, 16, 16, 0.10);
+  --border-default2: rgba(16, 16, 16, 0.6);
+  --main-btn-gradient:linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #D4FB07;;
+
+
+  // --------------- default border color variable ---------------
+  --br-a: #DB574D; // var(--br-a);
+  --br-b: #3E414B; // var(--br-b);
+  --br-c: #4B4BF0; // var(--br-c);
+
+
+
+  // --------------- default projects variables ---------------
+
+
+}
+
+

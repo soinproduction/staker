@@ -1,0 +1,28 @@
+.mobile-menu {
+	position: fixed;
+	inset: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+	overflow-x: hidden;
+	border-radius: 0 0 20% 20%;
+	background-color: rgba(var(--bg-e),1.0);
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: all .3s ease-out;
+
+	&__close {
+		position: absolute;
+		right: clamp(15px, 3.26vw, 25px);
+		top: clamp(15px, 3.26vw, 25px);
+	}
+
+	&.active {
+		border-radius: 0;
+		opacity: 1;
+		transform: translate(0%);
+
+	}
+
+}

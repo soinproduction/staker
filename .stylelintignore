@@ -1,0 +1,4 @@
+app/**/*.css
+src/scss/plugins/**/**
+src/scss/mixins/**/**
+src/scss/general/**/**
