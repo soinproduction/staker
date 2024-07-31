@@ -1,0 +1,51 @@
+.hero-section {
+  background-color: var(--bg-g);
+  padding: 40px 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 1fr;
+    align-items: center;
+    gap: clamp(15px, 1.953125vw, 30px);
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__coll {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(20px, 2.9296875vw, 40px);
+
+    @include mobile {
+      display: contents;
+      align-items: center;
+    }
+  }
+
+  &__image {
+    @include tablet {
+      @include for-mobile {
+        height: 100%;
+        margin-right: calc(var(--container-offset) * -1);
+        picture, img {
+          height: 100%;
+          object-position: left;
+        }
+      }
+    }
+  }
+
+  .main-top {
+    @include mobile {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .total-list {
+    max-width: 420px;
+  }
+}

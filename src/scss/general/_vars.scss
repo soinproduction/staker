@@ -7,9 +7,9 @@
   //--rem-function: calc(100vw / var(--frame-width));
 
   --error-bg: #d01f1f;
-  --body-bg: #EEEDEE;
+  --body-bg: #F5F7FD;
   --body-font-size: 16px;
-  --content-width: 1200px;
+  --content-width: 1170px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
@@ -30,44 +30,40 @@
   --select-inner-bg: #404040;
   --select-inner-border: #FDFDFD;
   --select-focus-border: #FDFDFD;
-  --main-button-size: 50px;
 
   // --------------- default font-family variables ---------------
 
-  --font-family: "Hind", sans-serif;   // var(--font-family);
-  --font-family2: "Inter", sans-serif; // var(--font-family2);
+  --font-family: "Gilroy", sans-serif;   // var(--font-family);
+
 
   // --------------- default text color variables ---------------
-  --cl-a: #fff;    // var(--cl-a);
-  --cl-b: #3E414B; // var(--cl-b);
-  --cl-c: #A2FF00; // var(--cl-c);
-  --cl-d: #41C27F; // var(--cl-d);
-  --cl-e: #797C83; // var(--cl-e);
-  --cl-f: #4B4BF0; // var(--cl-f);
-  --cl-g: #000; // var(--cl-g);
-  --cl-h: #41C27F; // var(--cl-h);
+  --cl-a: #ffffff; // var(--cl-a);
+  --cl-b: #E5EAF3; // var(--cl-b);
+  --cl-c: #050D0E; // var(--cl-c);
+  --cl-d: #E4E8F4; // var(--cl-d);
+  --cl-e: #FFCF8A; // var(--cl-e);
+  --cl-f: #000000; // var(--cl-f);
+  --cl-g: #21242D; // var(--cl-g);
+
 
 
 
 
   // --------------- default background color variables ---------------
-  --bg-a: #fff; // var(--bg-a);
-  --bg-b: #3E414B; // var(--bg-b);
-  --bg-c: #A2FF00; // var(--bg-c);
-  --bg-d: #41C27F; // var(--bg-d);
-  --bg-e: #797C83; // var(--bg-e);
-  --bg-f: #4B4BF0; // var(--bg-f);
-  --bg-g: #000; // var(--bg-g);
-  --bg-h: #41C27F; // var(--bg-h);
-  --border-default: rgba(16, 16, 16, 0.10);
-  --border-default2: rgba(16, 16, 16, 0.6);
-  --main-btn-gradient:linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #D4FB07;;
+  --bg-a: #ffffff; // var(--bg-a);
+  --bg-b: #E5EAF3; // var(--bg-b);
+  --bg-c: #050D0E; // var(--bg-c);
+  --bg-d: #E4E8F4; // var(--bg-d);
+  --bg-e: #FFCF8A; // var(--bg-e);
+  --bg-f: #000000; // var(--bg-f);
+  --bg-g: #21242D; // var(--bg-g);
+
 
 
   // --------------- default border color variable ---------------
-  --br-a: #DB574D; // var(--br-a);
-  --br-b: #3E414B; // var(--br-b);
-  --br-c: #4B4BF0; // var(--br-c);
+  --br-a: #CCD3DE; // var(--br-a);
+  --br-b: #47474D; // var(--br-b);
+
 
 
 

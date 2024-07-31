@@ -8,9 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#111111">
 
-    <title>template</title>
+    <title>Staker</title>
 
-    <link rel="preload" href="fonts/Hind-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Gilroy-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Gilroy-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
 
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
@@ -19,19 +22,249 @@
 <body class="page__body">
 <header class="header">
   <div class="container">
+      <div class="header__inner">
+          <div class="header__wrap">
+              <a href="/" class="logo">
+                  <img width="104" height="32" src="img/logo.svg" alt="logo">
+              </a>
+              <span class="header__text">Надежний Liquid staking сервис</span>
+          </div>
+
+          <a class="icon-link" href="#">
+              <span class="icon">
+                  <svg width="18" height="15">
+                    <use href="img/sprite/sprite.svg#telegram"></use>
+                  </svg>
+              </span>
+              @staker_support
+              <small>Telegram поддержка</small>
+          </a>
+
+          <a class="icon-link" href="#">
+              <span class="icon">
+                  <svg width="18" height="15">
+                    <use href="img/sprite/sprite.svg#mail"></use>
+                  </svg>
+              </span>
+              support@staker.io
+              <small>Техническая поддержка</small>
+          </a>
+
+          <a class="icon-link" href="#">
+              <span class="icon">
+                  <svg width="18" height="15">
+                    <use href="img/sprite/sprite.svg#mail"></use>
+                  </svg>
+              </span>
+              9:00 — 21:00
+              <small>Время работы офиса</small>
+          </a>
+
+          <button class="header__button main-button">
+              Подключить кошелек
+          </button>
+
+      </div>
+
+      <nav class="main-nav">
+          <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="#">Главная страница</a></li>
+              <li class="main-nav__item"><a href="#">Мобильное приложение</a></li>
+              <li class="main-nav__item"><a href="#">Как это работает?</a></li>
+              <li class="main-nav__item"><a href="#">О компании</a></li>
+              <li class="main-nav__item">
+                  <a href="#">
+                      <svg width="5" height="5">
+                          <use href="img/sprite/sprite.svg#round"></use>
+                      </svg>
+                      Live трансляция
+                  </a>
+              </li>
+              <li class="main-nav__item"><a href="#">Ноды</a></li>
+              <li class="main-nav__item"><a href="#">FaQ</a></li>
+              <li class="main-nav__item">
+                  <a href="#">
+                      Еще
+                      <svg width="10" height="6">
+                          <use href="img/sprite/sprite.svg#arrow-bottom"></use>
+                      </svg>
+                  </a>
+              </li>
+          </ul>
+      </nav>
 
   </div>
 </header>
 
-    <main class="main">
+<main class="main">
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-section__inner">
+                <div class="hero-section__coll">
+                    <div class="main-top">
+                        <h1 class="main-top__title">
+                            Liquid Ethereum Staking
+                        </h1>
 
-    </main>
+                        <div class="main-top__content">
+                            <p>
+                                Ставьте любое количество ETH, чтобы получать
+                                ежедневные вознаграждения и увеличивать свой баланс через DeFi.
+                            </p>
+                        </div>
+
+                        <div class="buttons">
+                            <button class="main-button">
+                                Подключить кошелек
+                            </button>
+                            <button class="main-button main-button--dark">
+                                Как это работает?
+                            </button>
+                        </div>
+                    </div>
+
+                    <ul class="total-list">
+                        <li class="total-list__item">
+                            <span class="total-list__label">
+                                Total staked tokens
+                            </span>
+                            <p>$36,214,920</p>
+                        </li>
+                        <li class="total-list__item">
+                            <span class="total-list__label">
+                                Total rewards paid
+                            </span>
+                            <p>$1,992,228</p>
+                        </li>
+                        <li class="total-list__item">
+                            <span class="total-list__label">
+                                Stakers
+                            </span>
+                            <p>440,111</p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="hero-section__image">
+                    <picture>
+                        <source type="image/webp" srcset="img/index-hero.webp">
+                        <img width="670" height="440" src="img/index-hero.png" alt="image">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container">
+            <div class="info-section__inner">
+                <div class="info-section__image">
+                    <picture>
+                        <source type="image/webp" srcset="img/info.webp">
+                        <img loading="lazy" width="343" height="343" src="img/info.png" alt="image">
+                    </picture>
+
+                    <p class="info-section__values">
+                        <span>≈4-10%</span>
+                        Ежедневная прибыль в liquid staking
+                    </p>
+                </div>
+
+                <div class="info-section__content">
+                    <div class="main-top">
+                        <h2 class="main-top__subtitle">
+                            Что такое Liquide Staking Ethereum?
+                        </h2>
+
+                        <div class="main-top__content">
+                            <p>
+                                Стейкинг Ethereum позволяет зарабатывать вознаграждения за вклады в ETH, одновременно помогая обеспечивать безопасность сети Ethereum. Создайте аккаунт Kraken, чтобы отправить ETH в стейкинг и заработать 1-4% APY.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="main-button">
+                            Начать стейкинг
+                        </button>
+                        <button class="main-button main-button--white">
+                            Посмотреть контракт
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <div class="container">
+            <div class="invest-section__inner">
+                <div class="main-top">
+                    <h2 class="main-top__subtitle">
+                        Инвестирование с Staker
+                    </h2>
+
+                    <div class="main-top__content">
+                        <p>
+                            Партнёрам фонда Asignat предлагается торговый портфель, состоящий из трёх уникальных планов, сочетающих в себе высокую доходность и гибкие условия для каждого инвестора. 
+                        </p>
+                    </div>
+                </div>
+
+                <ul class="cards-section__list">
+                    <li class="cards-section__item invest-card">
+                        <p class="invest-card__value" data-text="Дней">30-180</p>
+                        <div class="invest-card__icon">
+                            <img width="55" height="55" src="img/sprite/invest.svg" alt="icon">
+                        </div>
+                        <span class="invest-card__label">Срок инвестиций</span>
+                    </li>
+
+                    <li class="cards-section__item invest-card">
+                        <p class="invest-card__value">$10</p>
+                        <div class="invest-card__icon">
+                            <img width="55" height="55" src="img/sprite/invest2.svg" alt="icon">
+                        </div>
+                        <span class="invest-card__label">Минимальная сумма</span>
+                    </li>
+
+                    <li class="cards-section__item invest-card" data-text="и выше">
+                        <p class="invest-card__value">от 2%</p>
+                        <div class="invest-card__icon">
+                            <img width="55" height="55" src="img/sprite/invest3.svg" alt="icon">
+                        </div>
+                        <span class="invest-card__label">Минимальная прибыль</span>
+                    </li>
+
+                    <li class="cards-section__item invest-card">
+                        <p class="invest-card__value">$81,082</p>
+                        <div class="invest-card__icon">
+                            <img width="55" height="55" src="img/sprite/invest4.svg" alt="icon">
+                        </div>
+                        <span class="invest-card__label">Общий пулл</span>
+                    </li>
+                </ul>
+
+                <div class="buttons">
+                    <button class="main-button">
+                        Начать стейкинг
+                    </button>
+                    <button class="main-button main-button--white">
+                        Посмотреть контракт
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
 <footer class="footer">
-  <div class="container">
-    <span>
-      ТОВ «АМС БУД», код ЄДРПОУ 39556898
-    </span>
-  </div>
+<!--  <div class="container">-->
+<!--    <span>-->
+<!--      ТОВ «АМС БУД», код ЄДРПОУ 39556898-->
+<!--    </span>-->
+<!--  </div>-->
 </footer>
 
 <div class="overlay" data-overlay>

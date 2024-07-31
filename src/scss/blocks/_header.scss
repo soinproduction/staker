@@ -1,0 +1,52 @@
+.header {
+  padding: 15px 0;
+  --logo-gap: clamp(20px, 2.9296875vw, 50px);
+  --gap: clamp(20px, 3.41796875vw, 40px);
+
+  &__wrap {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--logo-gap);
+
+    @media (max-width: 1150px) {
+      flex-direction: column;
+      gap: 5px;
+      align-items: flex-start;
+    }
+  }
+
+  &__inner {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+  }
+
+  &__text {
+    color: var(--cl-c);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 160px;
+    position: relative;
+
+    @media (max-width: 1150px) {
+      max-width: initial;
+    }
+
+    @media (min-width: 1151px) {
+      &:before {
+        left: calc(var(--logo-gap) / -2);
+        content: '';
+        top: -2px;
+        bottom: -2px;
+        background-color: var(--bg-d);
+        position: absolute;
+        width: 1px;
+      }
+    }
+
+  }
+}

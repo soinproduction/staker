@@ -1,0 +1,38 @@
+.main-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+  &__title {
+    background: linear-gradient(90deg, #FFF 0%, #BFBEBE 45%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: clamp(36px, 4.4921875vw, 56px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 100% */
+  }
+
+  &__content {
+    p {
+      color: var(--cl-a);
+      font-size: clamp(14px, 1.46484375vw, 16px);
+      font-style: normal;
+      font-weight: 400;
+      line-height: 125%;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include mobile {
+      align-items: center;
+    }
+  }
+}

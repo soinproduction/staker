@@ -1,0 +1,26 @@
+.total-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px 20px;
+
+  @include mobile {
+    order: 10;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--cl-a);
+    font-size: clamp(16px, 1.7578125vw, 22px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  &__label {
+    flex-grow: 1;
+    font-size: clamp(12px, 1.3671875vw, 14px);
+    font-weight: 500;
+  }
+}

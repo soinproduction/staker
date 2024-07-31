@@ -1,0 +1,71 @@
+.icon-link {
+  display: grid;
+  grid-template-columns: clamp(25px, 3.41796875vw, 40px) 1fr;
+  grid-template-rows: auto auto;
+  gap: 0px 8px;
+  align-items: center;
+  width: fit-content;
+  flex-shrink: 0;
+  color: var(--cl-c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  small {
+    font-size: 10px;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    background-color: var(--bg-a);
+    border-radius: 50%;
+    grid-row: 1/-1;
+
+
+    * {
+      max-width: 50%;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.main-button {
+  display: flex;
+  height: clamp(45px, 4.8828125vw, 55px);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: clamp(10px, 1.953125vw, 20px);
+  background: var(--bg-e);
+  width: 100%;
+  max-width: 190px;
+
+  color: var(--cl-f);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  &--dark {
+    background-color: var(--bg-g);
+    border: 1px solid var(--br-b);
+    color: var(--cl-a);
+  }
+}
+
+.buttons {
+  display: grid;
+  gap: 10px 20px;
+  max-width: 420px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+
+  .main-button {
+    max-width: 100%;
+  }
+}

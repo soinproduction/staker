@@ -1,0 +1,40 @@
+.check-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+
+
+  @include small-tablet {
+    flex-direction: column;
+  }
+
+  li {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    color: var(--cl-a);
+    font-size: clamp(14px, 1.46484375vw, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: left;
+
+    @include mobile {
+      font-weight: 500;
+    }
+
+    &:before {
+      content: '';
+      position: relative;
+      display: flex;
+      width: clamp(18px, 1.953125vw, 28px);
+      aspect-ratio: 1;
+      background-image: var(--check-marker);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+    }
+  }
+}

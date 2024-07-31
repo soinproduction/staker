@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+@include('partials/header.html')
+<main class="main">
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-section__inner">
+                <div class="hero-section__coll">
+                    <div class="main-top">
+                        <h1 class="main-top__title">
+                            Портал оператора узла Staker
+                        </h1>
+
+                        <div class="main-top__content">
+                            <p>
+                                Операторы узлов обеспечивают ликвидные токены для ставок, которые Staker предлагает пользователям.
+                            </p>
+                            <p>
+                                Мы предоставляем лучше базовые наборы операторов, при которых базовый протокол является надежным, отказоустойчивым и более производительным.
+                            </p>
+
+                            <button class="main-button">
+                                Начать стейкинг
+                            </button>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="hero-section__image">
+                    <picture>
+                    	<source type="image/webp" srcset="img/hero-web.webp">
+                    	<img width="670" height="440" src="img/hero-web.png" alt="image">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+@include('partials/footer.html')
+
+</body>
+</html>

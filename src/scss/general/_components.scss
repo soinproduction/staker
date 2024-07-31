@@ -2,13 +2,15 @@
 @import "../components/main-components/main-top";
 @import "../components/main-components/main-form";
 @import "../components/main-components/footer-nav";
+@import "../components/main-components/main-nav";
 
 // ----------------- MAIN COMPONENTS -----------------
 
 
 
 // ----------------- BLOCK COMPONENTS -----------------
-//@import "../components/products-list";
+@import "../components/total-list";
+@import "../components/check-list";
 
 
 // ----------------- BLOCK COMPONENTS -----------------
